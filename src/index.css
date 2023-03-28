@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&display=swap");
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+.side-form {
+  width: 19rem;
+  min-width: 19rem;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #222;
+
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+
+  overflow-y: scroll;
+  overflow-x: hidden;
+  color: white;
+}
+
+.side-form::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+.side-form::-webkit-scrollbar-track {
+  background-color: #222;
+  border-radius: 6px;
+}
+
+.side-form::-webkit-scrollbar-thumb {
+  background-color: rgb(209, 207, 207);
+  height: 20px;
+  border-radius: 6px;
+}
+
+.side-form h3 {
+  margin-left: 2rem;
+}
+
+.side-form label {
+  display: inline-block;
+  margin-top: 30px;
+}
+
+.side-form span {
+  display: inline-block;
+}
+
+.side-form input,
+.side-form textarea {
+  background-color: #555;
+  width: 16rem;
+  max-width: 16rem;
+  min-width: 16rem;
+  outline: none;
+  height: 1.5rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: white;
+  padding-inline: 5px;
+  padding-block: 8px;
+  margin-block: 4px;
+}
+
+textarea {
+  min-height: 60px !important;
+}
+
+.hero {
+  height: 100vh;
+  margin-left: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 3rem;
+}
+
+img {
+  width: 16rem;
+  height: 20rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+.hero h2 {
+  font-size: 1rem;
+  letter-spacing: 2px;
+}
+
+.hero p,
+.hero h1,
+.hero h2 {
+  text-align: center;
+}
+
+.hero button {
+  background-color: rgb(11, 29, 65);
+  color: white;
+  padding: 20px;
+  font-size: 1rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  min-width: 10rem;
+  margin-top: 20px;
+}
